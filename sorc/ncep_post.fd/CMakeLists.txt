@@ -239,7 +239,7 @@ if(BUILD_POSTEXEC)
   target_link_libraries(${EXENAME} PRIVATE
     ${LIBNAME}
     w3emc::w3emc_4
-    sp::sp_4)
+    ip::ip_4)
   set_target_properties(${EXENAME} PROPERTIES LINKER_LANGUAGE Fortran)
   if(IFI_FOUND)
     target_link_libraries(${EXENAME} PRIVATE IFI)
