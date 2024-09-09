@@ -9,7 +9,6 @@ local ufs_modules = {
   {["hdf5"]            = "1.14.3"},
   {["netcdf-c"]        = "4.9.2"},
   {["netcdf-fortran"]  = "4.6.1"},
-  {["parallelio"]      = "2.6.2"},
   {["bacio"]           = "2.4.1"},
   {["crtm"]            = "2.4.0.1"},
   {["g2"]              = "3.5.1"},
